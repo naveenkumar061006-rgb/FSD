@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body align="center">
+    <h3>Hyperlink Frame</h3>
+    <a href="https://www.nature.com" target="_blank">Nature</a>
+</body>
+</html>

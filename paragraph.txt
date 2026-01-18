@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>Paragraph Frame</h3>
+    <p>
+       Nature encompasses the physical world, providing essentials like
+        air, water, and food, offering beauty, inspiration, and healing
+    </p>
+</body>
+</html>

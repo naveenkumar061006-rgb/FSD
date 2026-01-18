@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body align="center">
+    <h3>Image Frame</h3>
+    <img src="C:\Users\Pictures\image.webp" alt="Sample Image">
+</body>
+</html>
