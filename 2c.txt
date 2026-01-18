@@ -1,65 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Class Timetable</title>
-</head>
-<body>
-
-<table border="1" cellspacing="5" cellpadding="8" width="80%" align="center">
-
-    <!-- Caption -->
-    <caption><b>II B.Tech – Weekly Class Timetable</b></caption>
-
-    <!-- Top Info -->
-    <tr>
-        <th colspan="3">Academic Year: 2025–26</th>
-        <th colspan="3">Room No: A-103</th>
-        <th colspan="2">Section: B</th>
-    </tr>
-
-    <!-- Time Row -->
-    <tr>
-        <th rowspan="2">Day</th>
-        <th>9:00–10:00</th>
-        <th>10:00–11:00</th>
-        <th>11:00–12:00</th>
-        <th>12:00–1:00</th>
-        <th rowspan="2">LUNCH</th>
-        <th>2:00–3:00</th>
-        <th>3:00–4:00</th>
-    </tr>
-
-    <tr>
-        <th>1</th>
-        <th>2</th>
-        <th>3</th>
-        <th>4</th>
-        <th>5</th>
-        <th>6</th>
-    </tr>
-
-    <!-- MONDAY -->
-    <tr>
-        <th>MON</th>
-        <td>CN</td>
-        <td>MEFA</td>
-        <td>OS</td>
-        <td>DBMS</td>
-        <td>P&S</td>
-        <td>CN</td>
-        <td>Sports</td>
-    </tr>
-
-    <!-- TUESDAY -->
-    <tr>
-        <th>TUE</th>
-        <td>OS</td>
-        <td>FSD</td>
-        <td colspan="2">OS & CN LAB</td>
-        <td>CN</td>
-        <td>DBMS</td>
-        <td>Sports</td>
-    </tr>
 
   <!DOCTYPE html>
 <html>
@@ -73,31 +11,26 @@
 <form>
 <table border="1" cellpadding="8" cellspacing="0" align="center">
 
-    <!-- Name -->
     <tr>
         <td>Name</td>
         <td><input type="text" name="name"></td>
     </tr>
 
-    <!-- Password -->
     <tr>
         <td>Password</td>
         <td><input type="password" name="password"></td>
     </tr>
 
-    <!-- Mobile Number -->
     <tr>
         <td>Mobile Number</td>
         <td><input type="number" name="mobile"></td>
     </tr>
 
-    <!-- Date of Birth -->
     <tr>
         <td>Date of Birth</td>
         <td><input type="date" name="dob"></td>
     </tr>
 
-    <!-- Gender -->
     <tr>
         <td>Gender</td>
         <td>
@@ -106,7 +39,6 @@
         </td>
     </tr>
 
-    <!-- Hobbies -->
     <tr>
         <td>Hobbies</td>
         <td>
@@ -116,7 +48,6 @@
         </td>
     </tr>
 
-    <!-- Course -->
     <tr>
         <td>Course</td>
         <td>
@@ -130,7 +61,6 @@
         </td>
     </tr>
 
-    <!-- Address -->
     <tr>
         <td>Address</td>
         <td>
@@ -138,7 +68,6 @@
         </td>
     </tr>
 
-    <!-- Buttons -->
     <tr>
         <td align="center" colspan="2">
             <input type="submit" value="Submit">
