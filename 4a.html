@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selector Forms</title>
+
+    <style>
+        /* ============================= */
+        /* SIMPLE SELECTORS */
+        /* ============================= */
+
+        /* Element selector */
+        p {
+            color: blue;
+        }
+
+        /* ID selector */
+        #main {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        /* Class selector */
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Group selector */
+        h1, h2, h3 {
+             text-align: center;
+            color: orange;   /* changed from green */
+        }
+
+        /* Universal selector */
+        * {
+            font-family: Arial;
+        }
+
+        /* ============================= */
+        /* COMBINATORY SELECTORS */
+        /* ============================= */
+
+        /* Descendant selector */
+        div p {
+            background-color: lightgray;
+        }
+
+        /* Child selector */
+        div > span {
+            color: purple;
+        }
+
+        /* Adjacent sibling selector */
+        h2 + p {
+            color: orange;
+        }
+
+        /* General sibling selector */
+        h3 ~ p {
+            font-style: italic;
+        }
+
+        /* ============================= */
+        /* PSEUDO-CLASS SELECTORS */
+        /* ============================= */
+
+        a:hover {
+            color: red;
+        }
+
+        input:focus {
+            background-color: lightblue;
+        }
+
+        /* ============================= */
+        /* PSEUDO-ELEMENT SELECTORS */
+        /* ============================= */
+
+        p::first-letter {
+            font-size: 30px;
+            color: darkred;
+        }
+
+        p::after {
+            content: " ✔";
+            color: orange;   /* changed from green */
+        }
+
+        /* ============================= */
+        /* ATTRIBUTE SELECTORS */
+        /* ============================= */
+
+        input[type="text"] {
+            border: 2px solid orange;  /* changed from green */
+        }
+
+        a[target="_blank"] {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Selector Demonstration</h1>
+
+    <div id="main">
+        <h2>Simple Selectors</h2>
+        <p>This is an element selector example.</p>
+        <p class="highlight">This uses a class selector.</p>
+    </div>
+
+    <h2>Combinatory Selectors</h2>
+
+    <div>
+        <p>Descendant selector applied here.</p>
+        <span>Child selector applied here.</span>
+    </div>
+
+    <h3>Sibling Example</h3>
+    <p>Adjacent sibling selector applied.</p>
+    <p>General sibling selector applied.</p>
+
+    <h2>Pseudo-Class Selector</h2>
+    <a href="#">Hover over this link</a><br><br>
+    <input type="text" placeholder="Focus on me">
+
+    <h2>Pseudo-Element Selector</h2>
+    <p>This paragraph shows pseudo-element effects.</p>
+
+    <h2>Attribute Selector</h2>
+    <input type="text" placeholder="Text input"><br><br>
+    <a href="https://www.w3schools.com" target="_blank">W3Schools Link</a>
+
+</body>
+</html>
+ 
+        
